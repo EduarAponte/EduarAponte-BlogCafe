@@ -1,0 +1,250 @@
+:root {
+    --fontHeading: 'PT Sans', sans-serif;
+    --fontParagrafos: 'Open Sans', sans-serif;
+    --primario: #784D3C;
+    --cinza: #e1e1e1;
+    --branco: #FFFFFF;
+    --negro: #000000;
+}
+
+html {
+    box-sizing: border-box;
+    font-size:62.5%; 
+}
+*,*::before, *::after {
+    box-sizing: inherit;
+}
+
+body {
+    font-family: var(--fontParagrafos);
+    font-size:1.6rem; 
+    line-height: 2; 
+}
+
+.container {
+    width: min(90%, 120rem); 
+    margin: 0 auto; 
+}
+a {
+    text-decoration: none; 
+}
+h1, h2, h3, h4 {
+    font-family: var(--fontHeading);
+    line-height:1.2;
+}
+h1 {
+    font-size: 4.8rem;
+}
+h2 {
+    font-size: 4rem;
+}
+h3 {
+    font-size: 3.2rem;
+}
+h4 {
+    font-size: 2.8rem;
+}
+img {
+    max-width: 100%;
+}
+.webp .header {
+    background-image: url(../img/banner.webp);
+}
+.no-webo .header {
+    background-image: url(../img/banner.jpg);
+}
+.header {
+    height: 60rem;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+.barra {
+     padding-top: 4rem;
+}
+@media (min-width: 768px) {
+    .barra {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+}
+.logo {
+    color: var(--branco);
+}
+.logo__nome {
+    font-weight: 400;
+}
+.logo__bold {
+    font-weight: 700;
+}
+.nao-margin {
+    margin: 0;
+}
+.nao-padding {
+    padding: 0;
+}
+.centrar-texto {
+    text-align: center;
+}
+@media (min-width: 768px) {
+    .navegacao {
+        display: flex;
+        gap: 2rem;
+    }
+}
+.nevegacao__enlace {
+    display: block; 
+    text-align: center;
+    color: var(--branco);
+    font-size: 1.8rem;
+}
+.header__texto {
+    text-align: center;
+    color: var(--branco);
+    margin-top: 5rem;
+}
+@media (min-width: 768px) {
+    .header__texto {
+        margin-top: 15rem;
+    }
+}
+
+@media (min-width: 768px) {
+    .conteudo-principal {
+        display:grid;
+        grid-template-columns: 2fr 1fr;
+        column-gap: 4rem;
+    }
+}
+.entrada {
+ border-bottom: 1px solid var(--cinza);
+ margin-bottom: 2rem;
+}
+.entrada:last-of-type {
+    border: none;
+    margin-bottom: 0;
+}
+
+.botom {
+    display: block;
+    font-family: var(--fontHeading);
+    color: var(--branco);
+    padding: 1rem 3rem;
+    font-size: 1.8rem;
+    font-weight: 700;
+    text-align: center;
+    text-transform: uppercase;
+    margin-bottom: 2rem;
+    border: none;
+}
+@media (min-width: 768px) {
+    .botom {
+        display:inline-block;
+    }
+}
+.botom:hover {
+    cursor: pointer;
+}
+.botom--primario {
+    background-color:  var(--negro);
+}
+.botom--secundario {
+    background-color: var(--primario);
+}
+
+.cursos {
+    list-style: none;
+    line-height: 2;
+}
+.widget-curso {
+    border-bottom: 1px solid var(--cinza);
+    margin-bottom: 2rem;
+}
+.widget-curso:last-of-type {
+    border: none;
+    margin-bottom: 0;
+}
+.widget-curso__label {
+    font-family: var(--fontHeading);
+    font-weight: 700;
+}
+.widget-curso__informacao {
+    font-weight: normal;
+}
+.widget-curso__label,
+.widget-curso__informacao {
+    font-size: 2rem;
+}
+
+/* Sobre Nós */
+@media (min-width: 768px) {
+    .sobre-nos  {
+        display: grid;
+        grid-template-columns:repeat(2,1fr);
+        column-gap: 2rem;
+    }
+}
+
+/* Cursos */
+.curso {
+padding: 3rem 0;
+border-bottom: 1px solid var(--cinza);
+}
+@media (min-width: 768px) {
+    .curso {
+        display:grid;
+        grid-template-columns: 1fr 2fr;
+        column-gap: 2rem;
+    }
+}
+.curso:last-of-type {
+    border: none;
+}
+.curso__label {
+    font-family: var(--fontHeading);
+    font-weight: bold;
+}
+.curso__informacao {
+font-weight: normal;
+}
+.curso__label,
+.curso__informacao {
+    font-size: 2rem;
+}
+/* Contato */
+.contato-bg {
+    background-image: url(../img/contato.jpg);
+    height: 40rem;
+    background-size: cover;
+    background-repeat: no-repeat;
+
+}
+.formulario {
+    background-color: var(--branco);
+    margin: -5rem auto 0 auto;
+    width: 95%;
+    padding: 5rem;
+}
+.campo {
+    display: flex;
+    margin-bottom: 2rem;
+}
+.campo__label {
+    flex: 0 0 9rem;
+    text-align: right;
+    padding-right: 1rem;
+}
+.campo__input {
+    flex: 1;
+    border: 1px solid var(--cinza);
+}
+.campo__input--textarea {
+    height: 20rem;
+}
+/* Footer */
+.footer {
+    background-color: var(--negro);
+    padding-bottom: 3rem;
+    margin-top: 4rem;
+}
