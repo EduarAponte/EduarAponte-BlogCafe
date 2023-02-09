@@ -5,17 +5,9 @@ Project acadêmico criado no curso de Desenvolvimento Web Completo na Udemy.
 <br>
 
 <div align="center">
-
-  <img src="https://user-images.githubusercontent.com/92584428/213260486-fab48eea-7515-4f49-9af2-6798119cf323.png" width="30%" height="30%" />
-
-  <br>
-
-  <img src="https://user-images.githubusercontent.com/92584428/213260505-692adc6d-40eb-4ffb-9d3e-a4564909fb3b.png" width="30%" height="30%" /> 
-
-  <br>
-
-  <img src="https://user-images.githubusercontent.com/92584428/213260518-4604433e-c88c-460a-ac7c-d270d6bfa54b.png" width="30%" height="30%" />  
-
+  <img src="https://user-images.githubusercontent.com/92584428/213260486-fab48eea-7515-4f49-9af2-6798119cf323.png" style="margin: 0 8px;" width="30%" height="30%" />
+  <img src="https://user-images.githubusercontent.com/92584428/213260505-692adc6d-40eb-4ffb-9d3e-a4564909fb3b.png" style="margin: 0 8px;" width="30%" height="30%" /> 
+  <img src="https://user-images.githubusercontent.com/92584428/213260518-4604433e-c88c-460a-ac7c-d270d6bfa54b.png" style="margin: 0 8px;" width="30%" height="30%" />  
 </div>
 
 <br>
